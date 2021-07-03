@@ -1,0 +1,5 @@
+/* Here is your custom css styles. */
+.coverBtn{
+    background-image: linear-gradient(to right, #79dfe1 30%, #5258f1 100%);
+    opacity: 80%;
+}
