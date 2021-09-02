@@ -207,7 +207,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.jpg
   career: 安卓逆向小白
-  introduction: 复旦大学电子信息在读研究生，系统软件与安全实验室成员，主攻安卓逆向。偶尔打打音游，刷刷明日方舟。
+  introduction: 本科毕业于山东大学软件工程学院，现为复旦大学电子信息在读研究生，系统软件与安全实验室成员，主攻安卓逆向。偶尔打打音游，刷刷明日方舟。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -300,7 +300,7 @@ live2d:
   #baseUrl: 'https://cdn.jsdelivr.net/gh/AshenOneYe/HexoBlog@master/l2d/'
   modelUrl: 'medias/model'                        #存放模型的文件夹路径，末尾不需要斜杠
     #模型设置
-  modelName: 'paimon'                      #默认加载的模型名称，仅在无本地记录的情况下有效
+  modelName: 'nianoa_ver5_0101'                      #默认加载的模型名称，仅在无本地记录的情况下有效
   preLoadMotion: true                      #是否预载动作数据，只对 model3 模型有效，不预载可以提高 model3 模型的加载速度，但可能导致首次触发动作时卡顿
   tryWebp: true                            #如果浏览器支持 WebP 格式，将优先加载 WebP 格式的贴图，例如默认贴图文件为 klee.8192/texture_00.png，
                                                 #启用后将优先加载 klee.8192/texture_00.png.webp，文件不存在会自动 fallback
@@ -364,9 +364,9 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: 
-  appId:
-  appKey:
+  enable: true
+  appId: ccPDVS34UbLWMkWFHanLIO5V-MdYXbMMI
+  appKey: r5U1tUMrp8sFdMVqWrDJuRVy
   notify: false
   verify: false
   visitor: true
@@ -491,14 +491,14 @@ libs:
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
 - /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
+- /medias/featureimages/1.png
 - /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
+- /medias/featureimages/3.png
+- /medias/featureimages/4.png
+- /medias/featureimages/5.png
+- /medias/featureimages/6.gif
+- /medias/featureimages/7.gif
+- /medias/featureimages/8.gif
 - /medias/featureimages/9.jpg
 - /medias/featureimages/10.jpg
 - /medias/featureimages/11.jpg
@@ -512,8 +512,20 @@ featureImages:
 - /medias/featureimages/19.jpg
 - /medias/featureimages/20.jpg
 - /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
+- /arccg/1-1.jpg
+- /arccg/1-8.jpg
+- /arccg/1-ZR.jpg
+- /arccg/2-1.jpg
+- /arccg/2-8.jpg
+- /arccg/2-D.jpg
+- /arccg/3-1.jpg
+- /arccg/4-1.jpg
+- /arccg/4-7.jpg
+- /arccg/6-1.jpg
+- /arccg/6-6.jpg
+- /arccg/V-10.jpg
+# - /medias/featureimages/22.jpg
+# - /medias/featureimages/23.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
