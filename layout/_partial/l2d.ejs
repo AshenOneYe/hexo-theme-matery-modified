@@ -45,12 +45,25 @@ function testWebP() {
     })
 }
 
+const getSS = (k) => {
+    try {
+        return sessionStorage.getItem(k);
+    } catch (e) {
+        return null
+    }
+}
+
 function initModel() {
     /* Load style sheet */
     addStyle(waifuStyle);
 
     $$(`#${live2dId4}`).setAttribute('height', live2d_settings.live2dHeight);
     $$(`#${live2dId4}`).setAttribute('width', live2d_settings.live2dWidth);
+
+    window.waifuResize = () => {
+        if (getSS('waifuHide') !== '1')
+            window.innerWidth <= Number(live2d_settings.waifuMinWidth.replace('px', '')) ? waifu.classList.add('hide') : waifu.classList.remove('hide');
+    };
 
     if (live2d_settings.waifuMinWidth !== 'disable') {
         waifuResize();
