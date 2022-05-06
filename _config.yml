@@ -258,9 +258,9 @@ mySkills:
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
-# 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
+# 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.可以使用完整url
 myGallery:
-  enable: false
+  enable: true
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.png
@@ -280,24 +280,24 @@ myGallery:
     - /medias/featureimages/15.jpg
     - /medias/featureimages/16.jpg
     - /medias/featureimages/17.jpg
-    - /medias/arccg/1-1.jpg
-    - /medias/arccg/1-8.jpg
-    - /medias/arccg/1-ZR.jpg
-    - /medias/arccg/2-1.jpg
-    - /medias/arccg/2-8.jpg
-    - /medias/arccg/2-D.jpg
-    - /medias/arccg/3-1.jpg
-    - /medias/arccg/4-1.jpg
-    - /medias/arccg/4-7.jpg
-    - /medias/arccg/6-1.jpg
-    - /medias/arccg/6-6.jpg
-    - /medias/arccg/V-10.jpg
+    - /images/arccg/1-1.jpg
+    - /images/arccg/1-8.jpg
+    - /images/arccg/1-ZR.jpg
+    - /images/arccg/2-1.jpg
+    - /images/arccg/2-8.jpg
+    - /images/arccg/2-D.jpg
+    - /images/arccg/3-1.jpg
+    - /images/arccg/4-1.jpg
+    - /images/arccg/4-7.jpg
+    - /images/arccg/6-1.jpg
+    - /images/arccg/6-6.jpg
+    - /images/arccg/V-10.jpg
 
 
 # live2d
 live2d:
   enable: false
-  #baseUrl: 'https://cdn.jsdelivr.net/gh/AshenOneYe/HexoBlog@master/l2d/'
+  # baseUrl: 'https://cdn.jsdelivr.net/gh/AshenOneYe/HexoBlog@master/l2d/'
   modelUrl: 'medias/model'                        #存放模型的文件夹路径，末尾不需要斜杠
     #模型设置
   modelName: 'nianoa_ver6_0101'                      #默认加载的模型名称，仅在无本地记录的情况下有效
@@ -512,18 +512,18 @@ featureImages:
 - /medias/featureimages/19.jpg
 - /medias/featureimages/20.jpg
 - /medias/featureimages/21.jpg
-- /medias/arccg/1-1.jpg
-- /medias/arccg/1-8.jpg
-- /medias/arccg/1-ZR.jpg
-- /medias/arccg/2-1.jpg
-- /medias/arccg/2-8.jpg
-- /medias/arccg/2-D.jpg
-- /medias/arccg/3-1.jpg
-- /medias/arccg/4-1.jpg
-- /medias/arccg/4-7.jpg
-- /medias/arccg/6-1.jpg
-- /medias/arccg/6-6.jpg
-- /medias/arccg/V-10.jpg
+- /images/arccg/1-1.jpg
+- /images/arccg/1-8.jpg
+- /images/arccg/1-ZR.jpg
+- /images/arccg/2-1.jpg
+- /images/arccg/2-8.jpg
+- /images/arccg/2-D.jpg
+- /images/arccg/3-1.jpg
+- /images/arccg/4-1.jpg
+- /images/arccg/4-7.jpg
+- /images/arccg/6-1.jpg
+- /images/arccg/6-6.jpg
+- /images/arccg/V-10.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -620,6 +620,7 @@ instantpage:
 # 若为 false, 则 banner 默认为 /medias/banner/0.jpg
 banner:
   enable: false
+  url: https://hexo-1259492165.cos.ap-shanghai.myqcloud.com/images/banner
 
 #ICP备案信息尾部显示
 icp:
@@ -638,6 +639,9 @@ icp:
 # 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx
 jsDelivr:
   url: # https://cdn.jsdelivr.net/gh/AshenOneYe/HexoBlog@master
+
+picBag:
+  url: https://hexo-1259492165.cos.ap-shanghai.myqcloud.com
   
 # 网站背景图
 background:
