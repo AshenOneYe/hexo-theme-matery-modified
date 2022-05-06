@@ -334,9 +334,9 @@ gitalk:
   owner: AshenOneYe
   repo: hexo-theme-matery-modified
   oauth:
-    clientId: b137049ec5ac2f06bf9d
-    clientSecret: a099352c06c629beecf138df65d976af5e0d4431
-  admin: AshenOneYe
+    clientId: 
+    clientSecret: 
+  admin: 
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
